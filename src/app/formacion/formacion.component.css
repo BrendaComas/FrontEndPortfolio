@@ -1,0 +1,182 @@
+
+/* SECCION SOBRE MI*/
+#sobremi{
+    max-width: 1100px;
+    margin:auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+#sobremi .contenedor-foto{
+    max-width: 400px;
+    margin-right: 80px;
+
+}
+#sobremi .contenedor-foto img{
+    padding: 10px;
+    width: 150%;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+}
+#sobremi .sobremi{
+    margin:0 40px;
+}
+#sobremi .sobremi .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+#sobremi sobremi h2{
+    font-size:34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing:2px;
+}
+#sobremi .sobremi h2 span{
+    color: fuchsia;
+
+}
+#sobremi .sobremi h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom:20px;
+    letter-spacing: 1px;
+}
+#sobremi .sobremi p{
+    font-size: 14px;
+    line-height: 25px;
+    color:#565656;
+    margin-bottom: 12px;
+
+}
+#sobremi .sobremi a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    padding:10px 20px;
+    border:1px solid #000;
+    margin-top:30px;
+    transition: .5s;
+}
+#sobremi .sobremi a:hover{
+    background-color: fuchsia;
+    color: #fff;
+}
+
+
+.formacion {
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.formacion h1 {
+    padding-top: 8rem;
+    font-size: 3rem;
+}
+
+.cards--formacion:hover {
+    border: 1px solid var(--beaver);
+    box-shadow: 0 10px 16px -6px rgba(158, 8, 121, 0.3), 0 25px 10px -24px rgba(157, 132, 224, 0.1);
+    transform: scale(1.1);
+    transition: .4s all;
+    
+}
+
+
+
+.formacion {
+    background-color:#eeeeee;
+    width: 100%;
+    height: auto;
+}
+
+.formacion h1 {
+    display: block;
+    text-align: center;
+    color:#111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    font-family:'Cooper Hewitt';
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    padding: 6rem 0 5rem 0;
+}
+
+.cards_container--formacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem 3rem 2rem;
+    
+}
+
+.cards--formacion {
+    background-color: var(--jet);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 1rem 2rem 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.cards--formacion img {
+    width: 15rem;
+}
+
+.container_texto--formacion {
+    margin-bottom: 2.3rem;
+    padding-top: 2rem;
+  
+}
+
+img.logo-ticmas {
+    width: 24rem;
+}
+
+img.logo-argp {
+    width: 21rem;
+   
+ 
+}
+
+img.logo-ob {
+    width: 25rem;
+ 
+}
+
+.cards--formacion p:nth-child(1) {
+    color: var(--beaver);
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .1rem;
+    font-size: 1;
+    font-weight: bold;
+    margin-bottom: .7rem;
+}
+
+.cards--formacion p:nth-child(2) {
+    color: var(--light-grey);
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .2rem;
+    font-size: 1.4rem;
+}
+
+
+.cards_container--formacion {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cards--formacion {
+    margin: 0 2rem 3rem 2rem;
+}
